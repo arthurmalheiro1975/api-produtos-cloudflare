@@ -1,0 +1,13 @@
+# Terraform
+.terraform/
+*.tfstate
+.tfstate.
+crash.log
+crash.*.log
+
+# Terraform sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Node
+api/node_modules/
