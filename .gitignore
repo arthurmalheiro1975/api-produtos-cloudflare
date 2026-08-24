@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 
 logs
@@ -165,3 +166,18 @@ dist
 .env*
 !.env.example
 .wrangler/
+=======
+# Terraform
+.terraform/
+*.tfstate
+.tfstate.
+crash.log
+crash.*.log
+
+# Terraform sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Node
+api/node_modules/
+>>>>>>> aef076c5969739eb7c1824f441b95f38766c002d
